@@ -1,15 +1,5 @@
-.border{
-    border: 2px black solid;
-    margin : 3px;
-}
 .flex{
     display:flex;
-}
-.justify-center{
-    justify-content:center;
-}
-.items-center{
-    align-items:center;
 }
 .bg-black{
     background-color: black;
@@ -30,10 +20,21 @@
 .p-1{
     padding:10px;
 }
+.border{
+    border: 2px black solid;
+    margin : 3px;
+}
+.justify-center{
+    justify-content:center;
+}
+.items-center{
+    align-items:center;
+}
+
 
 /* For Webkit browsers (e.g., Chrome, Safari) */
 ::-webkit-scrollbar {
-    width: 12px;
+width: 12px;
   }
   
   ::-webkit-scrollbar-thumb {
@@ -46,5 +47,7 @@
   }
   
   /* For Firefox */
-  scrollbar-color : #333 #222; /* Dark color for the thumb and track in Firefox */
+  html {
+    scrollbar-color: #333 #222; /* Dark color for the thumb and track in Firefox */
+  }
   
